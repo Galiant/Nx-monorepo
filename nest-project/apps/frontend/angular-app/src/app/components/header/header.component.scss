@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  padding-inline: 16px;
+  padding-block: 8px;
+  background-color: #333;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+      list-style: none;
+    }
+
+    > span,
+    li {
+      &:hover {
+        color: #777;
+      }
+      cursor: pointer;
+    }
+  }
+}
