@@ -1,7 +1,7 @@
 {
   "name": "nestjs-task-management",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/nestjs-task-management/src",
+  "sourceRoot": "apps/backend/nestjs-task-management/src",
   "projectType": "application",
   "tags": [],
   "targets": {
